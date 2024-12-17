@@ -76,7 +76,7 @@ LIMIT 1;
 SELECT city.name
 FROM cities city
 JOIN countries c ON city.countrycode = c.code
-WHERE c.name = 'Argentina'  -- Replace this with the country you found in previous steps
+WHERE c.name = 'Argentina'  
   AND city.id = c.capital;
 
 
